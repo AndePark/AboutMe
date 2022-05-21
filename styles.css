@@ -1,0 +1,61 @@
+/* h1 {
+    color: red;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 100px;
+    text-align: center;
+} */
+
+html {
+    background: url(images/fp2-back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro-container {
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.intro-container.intro-items {
+    width: 250px;
+    height: 100px;
+    flex: 1 1 auto;
+}
+
+.heading-text {
+    color: darkgray;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Papyrus", fantasy;
+}
+
+.tab-container {
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.tab-container.tab-items {
+    width: 250px;
+    height: 90px;
+    flex: 1 1 auto;
+}
+
+.tab-text {
+    color: red;
+
+}
+
+/* strong {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+} */
+
